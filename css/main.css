@@ -1,33 +1,41 @@
 
 body {
-  margin: 0;
+  margin: 0 25px 25px 25px;
   text-align: center;
   color: white;
   height: 100%;
+  background-color: rgba(173,194,169, 0.8);
 }
 
 
 h1 {
   font-family: 'Pacifico', cursive;
   color: white;
-  font-size: 4.5rem;
+  font-size: 6rem;
+  background-attachment: fixed;
 }
 
-p {
-  
-}
 
-.container-fluid {
-  width: 100%;
-  height: 100%;
-}
 
 .title {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-35%, -50%);
+}
+
+.undertitle-1{
+  font-size: 1rem;
+  color: #E5DCC3;
+  font-weight: bold;
+}
+
+/* parrallax effect */
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
 }
 
 .parrallax-top {
@@ -43,7 +51,34 @@ p {
    background-size: cover;
 }
 
-.basic-description{
-  height: 700px;
+.spacing {
+  padding: 25px 0 12.5px 0
+}
 
+/* basic description */
+
+.basic-description{
+  height: 100%;
+  background-color: #ADC2A9;
+}
+
+/* classifcation-species */
+
+.inner-box {
+    margin: auto;
+}
+
+.classification {
+  text-align: center;
+}
+
+.classes-of-tardigrada {
+  background-color: #ADC2A9;
+}
+
+.classes {
+  background-color: yellow;
+  height: 25px;
+  border: solid 2px;
+  margin: 0 10px 0 10px
 }
